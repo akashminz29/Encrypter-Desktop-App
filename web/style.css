@@ -1,3 +1,10 @@
+/*
+  userTxt => Text area
+  userKey => Password area
+  encryptBtn => for encrypting
+  Decrypt => for decrypting
+
+*/
 #userTxt, #userKey{
   width:100%;
   outline: none;
