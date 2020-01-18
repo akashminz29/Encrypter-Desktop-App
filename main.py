@@ -41,3 +41,5 @@ def decrypt(USER_TXT,USER_KEY):
 
 #Start eel from the index file
 eel.start('index.html',size=(1000,600))
+
+    
