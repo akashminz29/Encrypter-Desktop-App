@@ -6,4 +6,6 @@ This desktop application is made using eel python library which allows you to bu
 like 
 1. HTML
 2. CSS
-3. JS etc
+3. JS etc...
+
+So basically frontend of the application is made using html,css,js and backend runs with python.
