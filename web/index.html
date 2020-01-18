@@ -16,11 +16,16 @@
 
   </head>
   <body>
-    
-  <div class="jumbotron">
+    <div id="header-menu">
+      <input type="button" id="quickEnc" class="menu-btn"  name="quickEnc" value="QUICK ENCRYPT" onclick="showQuickEnc()">
+      <input type="button" id="fileEnc" class="menu-btn" name="fileEnc" value="FILE ENCRYPT" onclick="showFileEnc()">
+      <input type="button" id="fileDe" class="menu-btn" name="fileDe" value="FILE DECRYPT" onclick="showFileDE()">
+    </div>
+
+  <div class="jumbotron" id="display">
     <h3 id='output' style="text-align: center;">Encrypt Your Text...</h3>
   </div>
-
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-lg-offset-4">

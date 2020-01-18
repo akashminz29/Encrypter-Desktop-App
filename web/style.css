@@ -5,6 +5,31 @@
   Decrypt => for decrypting
 
 */
+body{
+  background-color: #5f5f5f;
+}
+#display{
+  background-color: rgb(99, 75, 75);
+  color:silver;
+}
+.menu-btn{
+  height:100%;
+  outline:none;
+  border:none;
+  color:silver;
+  padding:3px;
+  margin-right:10px;
+  background-color:#5f5f5f ;
+  font-size: medium;
+  font-weight: 500;
+}
+.menu-btn:hover{
+  color:#fff;
+}
+#header-menu{
+  background-color:#5f5f5f;
+  padding:5px;
+}
 #userTxt, #userKey{
   width:100%;
   outline: none;
