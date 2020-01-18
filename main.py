@@ -4,9 +4,6 @@ import eel
 #Project folder that contins html, css, js files 
 eel.init('web')
 
-#Start eel from the index file
-eel.start('index.html',size=(1000,600))
-
 #Exposing encrypt function so that js can communicate with python 
 @eel.expose
 def encrypt(USER_TXT,USER_KEY):
@@ -40,8 +37,6 @@ def decrypt(USER_TXT,USER_KEY):
     #Calculating temporary key
     for char in USER_KEY:
         TEMP_KEY=TEMP_KEY+ord(char)
-    print(TEMP_KEY)
-    print(type(TEMP_KEY))
     
     #Calculating the key for decrypting using temporary key
     while(TEMP_KEY!=0):
@@ -53,3 +48,5 @@ def decrypt(USER_TXT,USER_KEY):
         DECRYPTED_TXT=DECRYPTED_TXT+chr(ord(char)-KEY)
     return DECRYPTED_TXT
 
+#Start eel from the index file
+eel.start('index.html',size=(1000,600))
